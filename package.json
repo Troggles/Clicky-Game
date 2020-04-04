@@ -6,7 +6,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1",
-    "snyk": "^1.189.0"
+    "snyk": "^1.305.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
